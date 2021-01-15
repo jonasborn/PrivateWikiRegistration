@@ -4,5 +4,28 @@
 			"Your Name"
 		]
 	},
-	"boilerplate-desc": "This is an example extension"
+	"specialpages-group-registration": "Registration",
+
+	"template-missing": "The template {} is missing",
+
+	"registration": "Registration",
+	"registration.page-title": "Registration",
+	"registration.template": "Template:Registration",
+
+
+	"summary.page-title": "Registration accepted",
+	"summary.template": "Template:Summary",
+	
+	"failure.page-title": "Something went wrong",
+	"failure.retry": "Retry",
+
+	"overview": "Overview",
+	"overview.confirm": "Confirm",
+	"overview.delete": "Delete",
+	"overview.username": "Username",
+	"overview.empty": "No entries available!",
+
+	"join": "Join",
+	"join.page-title": "Join"
+
 }

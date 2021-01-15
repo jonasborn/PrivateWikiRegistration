@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Your Name"
+			"<your username>"
 		]
 	},
-	"boilerplate-desc": "{{desc|name=Boilerplate|url=https://www.mediawiki.org/wiki/Extension:Boilerplate}}"
+	"betterregistration": "The name of the extension's entry in Special:SpecialPages",
+	"BetterRegistration-desc": "{{desc}}",
+	"BetterRegistration-summary": "Description appearing on top of Special:MyExtension.",
+	"action-BetterRegistration": "{{doc-action|myextension}}",
+	"right-BetterRegistration": "{{doc-right|myextension}}",
+	"specialpages-group-registration": "Registration"
 }

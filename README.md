@@ -1,22 +1,23 @@
-This is a blank extension template. It doesn't really do anything on its own.
-It is intended to provide a boiler template for an actual MediaWiki extension.
+# About
+This is a custom plugin for the muc ccc group called Elektronikfreunde.
+Because of some copyright reasons, it was needed to create a customized invite based
+registration system.
 
-If you are checking this out from Git and intend to use it, you may use the
-following commands to make a clean directory of just this template without the
-Git meta-data and other examples.
+#Usage
+The plugin is made out of three main sites:
 
-	cd extensions
-	git clone https://gerrit.wikimedia.org/r/mediawiki/extensions/BoilerPlate.git
-	cp -r BoilerPlate ./MyExtension
-	rm -rf ./MyExtension/.git
+## Special:Register
+This public page is used to let users register them self. There is only an input for an username.
+The template of this page is set in the language files and currently Template:Register | Vorlage:Registrieren (de).
+After the registration is done, another page with a template Template:Summary | Vorlage:Zusammenfassung (de) is shown.
 
-This automates the recommended code checkers for PHP and JavaScript code in Wikimedia projects
-(see https://www.mediawiki.org/wiki/Continuous_integration/Entry_points).
-To take advantage of this automation.
+## Special:Confirm
+A internal page, only visible to certain administrative groups, able to
+list all pending registrations.
+It shows a list simple list with the username, a link to delete and a link to confirm the request.
+When confirmed, a invite link is generated and shown.
 
-1. install nodejs, npm, and PHP composer
-2. change to the extension's directory
-3. `npm install`
-4. `composer install`
-
-Once set up, running `npm test` and `composer test` will run automated code checks.
+## Special:Join
+This page is only used together with an invite link. It will force the new user to set
+a password before being able to login.
+A template called Special:Join | Spezial:Beitreten (de) is used to get the form html structure

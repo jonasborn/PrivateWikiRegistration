@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Your Name"
+		]
+	},
+	"specialpages-group-registration": "Registration",
+
+	"template-missing": "Die Vorlage {} fehlt",
+
+	"registration": "Registrierung",
+	"registration.page-title": "Registrierung",
+	"registration.template": "Template:Registrierung",
+
+
+	"summary.page-title": "Registrierung angenommen",
+	"summary.template": "Vorlage:Zusammenfassung",
+
+	"failure.page-title": "Da ist etwas schief gelaufen",
+	"failure.retry": "Nochmal versuchen",
+
+	"overview": "Übersicht",
+	"overview.confirm": "Bestätigen",
+	"overview.delete": "Löschen",
+	"overview.username": "Benutzername",
+	"overview.empty": "Keine Einträge vorhanden",
+
+	"join": "Beitreten",
+	"join.page-title": "Beitreten"
+
+}
