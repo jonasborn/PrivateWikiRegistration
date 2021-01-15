@@ -3,7 +3,7 @@ This is a custom plugin for the muc ccc group called Elektronikfreunde.
 Because of some copyright reasons, it was needed to create a customized invite based
 registration system.
 
-#Usage
+# Usage
 The plugin is made out of three main sites:
 
 ## Special:Register
