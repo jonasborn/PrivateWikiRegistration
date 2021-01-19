@@ -10,7 +10,7 @@ class ConfirmationPage extends SpecialPage
 
     function __construct()
     {
-        parent::__construct('Confirm');
+        parent::__construct('Confirm', "userrights");
     }
 
     /**
@@ -27,6 +27,8 @@ class ConfirmationPage extends SpecialPage
     {
 
         global $wgServer;
+        $this->checkPermissions();
+
         $storage = new \MediaWiki\Extension\BoilerPlate\Storages();
         $settings = $storage->loadSettings();
 
