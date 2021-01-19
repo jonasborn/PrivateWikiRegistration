@@ -5,7 +5,7 @@ include_once __DIR__ . "/Storages.php";
 require_once __DIR__ . '/../../../maintenance/Maintenance.php';
 require_once __DIR__ . '/../../../LocalSettings.php';
 
-class ConfirmPage extends SpecialPage
+class ConfirmationPage extends SpecialPage
 {
 
     function __construct()

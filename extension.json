@@ -8,12 +8,12 @@
   "type": "specialpage",
   "AutoloadClasses": {
     "RegistrationPage": "includes/RegistrationPage.php",
-    "ConfirmPage": "includes/ConfirmationPage.php",
+    "ConfirmationPage": "includes/ConfirmationPage.php",
     "JoinPage": "includes/JoinPage.php"
   },
   "SpecialPages": {
     "Registration": "RegistrationPage",
-    "Confirm": "ConfirmPage",
+    "Confirm": "ConfirmationPage",
     "Join": "JoinPage"
   },
   "MessagesDirs": {
